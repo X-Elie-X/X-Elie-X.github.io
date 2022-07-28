@@ -1,0 +1,364 @@
+@media screen and (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .menu-bar {
+    display: none;
+  }
+
+  .header {
+    background-image: none;
+  }
+
+  .nav-b2 {
+    background-color: #272a31;
+    display: block;
+    display: flex;
+    align-items: center;
+    color: #d3d3d3;
+    font-size: 12px;
+    gap: 20px;
+  }
+
+  .list2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .test {
+    margin-left: 920px;
+  }
+
+  .list2 ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+
+  .list2 a {
+    text-decoration: none;
+    color: #d3d3d3;
+  }
+
+  .nav-b {
+    background-color: #d3d3d3;
+    display: block;
+  }
+
+  .nav-b .menuList {
+    display: flex;
+    gap: 40px;
+    margin-left: 520px;
+    font-size: 15px;
+    margin-top: -70px;
+  }
+
+  .campaign {
+    margin-left: 35px;
+  }
+
+  .campaign:hover {
+    border: 3px solid #ec5342;
+    width: 110px;
+    text-align: center;
+    height: 50px;
+  }
+
+  .campaign a:hover {
+    color: #ec5342;
+  }
+
+  .nav-b .logo {
+    display: block;
+    margin-bottom: -55px;
+    width: 90px;
+    height: 90px;
+    margin-left: 200px;
+  }
+
+  .title3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 190px;
+  }
+
+  .title {
+    font-family: 'Cocogoose Pro', sans-serif;
+    color: #ec5342;
+    font-size: 49px;
+    width: 600px;
+    margin-bottom: 40px;
+    margin-left: 190px;
+  }
+
+  .intro {
+    background-size: cover;
+    margin-top: -50px;
+    height: 600px;
+  }
+
+  .intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(./img/background1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .intro1 {
+    font-size: 15px;
+    border: 1px solid #fff;
+    width: 610px;
+    margin-left: 190px;
+  }
+
+  .intro-date {
+    font-size: 25px;
+    margin-left: 190px;
+  }
+
+  .intro-location {
+    font-size: 20px;
+    margin-left: 190px;
+    margin-top: 15px;
+  }
+
+  .title1 {
+    font-size: 25px;
+  }
+
+  .hr1 {
+    width: 50px;
+  }
+
+  .info-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info-list .li1 {
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+  }
+
+  .info-list .li2 {
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+  }
+
+  .info-list .li3 {
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+  }
+
+  .info-list .li4 {
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 200px;
+    height: 150px;
+  }
+
+  .info-list .li5 {
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+  }
+
+  .info {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 190px;
+    font-size: 19px;
+  }
+
+  .list1 {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .btn1 {
+    display: none;
+  }
+
+  .btn2 {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 150px;
+    color: #ec5342;
+  }
+
+  .btn2:hover {
+    font-size: 20px;
+  }
+
+  .hr2 {
+    margin-left: 600px;
+    width: 80px;
+    color: #ec5342;
+  }
+
+  .load-more {
+    display: none;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .partner1 {
+    display: block;
+    border: 1px solid #272a31;
+    background-color: #272a31;
+  }
+
+  .partners2 {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #d3d3d3;
+  }
+
+  .hr6 {
+    margin-top: 10px;
+    width: 35px;
+    margin-left: 625px;
+    color: #ec5342;
+    margin-bottom: 40px;
+  }
+
+  .partner-list1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .partner-list1 li {
+    text-align: center;
+    list-style: none;
+    color: #b3b3b3;
+    font-size: 25px;
+    font-family: 'Cocogoose Pro', sans-serif;
+  }
+
+  .about1 a:hover {
+    color: #ec5342;
+  }
+
+  .title4 {
+    display: none;
+  }
+
+  .title5 {
+    font-size: 50px;
+    width: 800px;
+    padding: 70px;
+    margin-left: 250px;
+  }
+
+  .intro3 {
+    width: 800px;
+    font-size: 25px;
+  }
+
+  .contact-list {
+    width: 500px;
+    margin-left: 350px;
+  }
+
+  .hr4 {
+    margin-left: 600px;
+  }
+
+  .logo-info2 {
+    margin-left: 400px;
+    font-size: 20px;
+    width: 500px;
+  }
+
+  .logo2 {
+    width: 400px;
+    height: 400px;
+    margin-left: 400px;
+    margin-bottom: 30px;
+  }
+
+  .last-intro {
+    font-size: 25px;
+  }
+
+  .last-introP {
+    margin-bottom: 50px;
+  }
+
+  .france {
+    margin-left: 650px;
+    margin-top: -325px;
+    margin-bottom: 70px;
+  }
+
+  .newYork {
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+
+  .reserved2 {
+    background-color: #272a31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .reserved {
+    color: #d3d3d3;
+  }
+
+  .logo3 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .program {
+    background-size: cover;
+    height: 500px;
+  }
+
+  .about {
+    background-size: cover;
+  }
+
+  .projects1 ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 0 auto;
+    margin-top: 24px;
+  }
+}
