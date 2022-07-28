@@ -13,6 +13,10 @@
 
 [Live Demo Link](https://x-elie-x.github.io/)
 
+## Loom Video
+
+https://www.loom.com/share/29924d1921f84fccbece3c275e6b560c
+
 ## Getting Started
 
 ## Author
