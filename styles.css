@@ -52,6 +52,10 @@ body {
   color: #272a31;
 }
 
+.info-list li a {
+  font-size: 12px;
+}
+
 .menuList li a:hover {
   font-weight: bold;
 }
@@ -149,7 +153,7 @@ body {
   position: relative;
   font-family: 'Cocogoose Pro', sans-serif;
   color: #ec5342;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -173,11 +177,24 @@ body {
 }
 
 .program {
+  position: relative;
+}
+
+.program::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-image: url(./img/background2.avif);
   background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
 }
 
 .title1 {
+  position: relative;
   text-align: center;
   color: #d3d3d3;
   font-family: 'Lato', sans-serif;
@@ -186,9 +203,11 @@ body {
 }
 
 .hr1 {
+  position: relative;
   width: 40px;
   margin: 0 auto;
-  color: #ec5342;
+  background-color: #ec5342;
+  border: 1px solid #ec5342;
 }
 
 .list1 {
@@ -199,26 +218,41 @@ body {
 }
 
 .info {
-  font-family: 'Lato', sans-serif;
-  color: #272a31;
-  font-size: 13px;
+  position: relative;
+  font-family: 'Cocogoose Pro', sans-serif;
+  color: #fff;
+  font-size: 12px;
   width: 200px;
-  margin-left: 100px;
+  margin-left: 140px;
   margin-top: -20px;
 }
 
+.info-list {
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+}
+
 .info-list li {
-  margin-left: 30px;
+  margin-left: 15px;
   margin-top: 15px;
-  width: 300px;
-  border: 1px solid #fff;
-  background-color: #b3b3b3;
+  width: 350px;
+  background-color: #ffffff1a;
   list-style: none;
+  height: 90px;
+}
+
+.info-list li i {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 35px;
 }
 
 .btn1 {
+  position: relative;
   width: 150px;
-  height: 60px;
+  height: 50px;
   margin-top: 20px;
   margin-left: 110px;
   color: #d3d3d3;
@@ -259,6 +293,8 @@ body {
   margin-left: 160px;
   width: 40px;
   margin-bottom: 40px;
+  background-color: #ec5342;
+  border: 1px solid #ec5342;
 }
 
 .projects1 {
@@ -276,7 +312,6 @@ body {
 }
 
 .imgs {
-  margin-top: 4px;
   margin-left: 20px;
 }
 
@@ -301,7 +336,8 @@ body {
   width: 30px;
   margin-left: 140px;
   margin-bottom: 10px;
-  color: #b3b3b3;
+  background-color: #b3b3b3;
+  border: 1px solid #b3b3b3;
 }
 
 .p2 {
@@ -335,16 +371,33 @@ body {
   font-family: 'Cocogoose Pro', sans-serif;
 }
 
+.contact-list li {
+  margin-bottom: 25px;
+}
+
 .project1 li:nth-child(2) {
   display: none;
 }
 
 .about {
+  position: relative;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-image: url(img/background4.avif);
   background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.25;
 }
 
 .title4 {
+  position: relative;
   font-family: 'Lato', sans-serif;
   color: #ec5342;
   font-size: 18px;
@@ -353,6 +406,7 @@ body {
 }
 
 .title5 {
+  position: relative;
   font-family: 'Cocogoose Pro', sans-serif;
   color: #ec5342;
   font-size: 25px;
@@ -361,30 +415,30 @@ body {
 }
 
 .intro3 {
+  position: relative;
+  text-align: center;
   font-family: 'Lato', sans-serif;
   color: #272a31;
   font-size: 15px;
   border: 1px solid #fff;
   width: 350px;
   margin: 0 auto;
-  background-color: #cacbd0;
+  background-color: #fff;
 }
 
 .contact-list {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   color: #272a31;
   font-family: 'Lato', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   list-style: none;
-  margin-top: 40px;
-  gap: 5px;
-  background-color: #cacbd0;
-  border: 1px solid #fff;
-  border: none;
-  width: 320px;
-  margin-left: 20px;
+  margin-top: 25px;
+  width: 300px;
+  margin-left: 50px;
 }
 
 .logo-info {
@@ -403,7 +457,8 @@ body {
   margin-top: 10px;
   margin-bottom: 30px;
   width: 50px;
-  color: #ec5342;
+  background-color: #ec5342;
+  border: 1px solid #ec5342;
   margin-left: 170px;
 }
 
@@ -412,14 +467,14 @@ body {
   color: #272a31;
   font-size: 15px;
   width: 350px;
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 .logo2 {
   border: 1px solid #d3d3d3;
   width: 200px;
   height: 200px;
-  margin-left: 70px;
+  margin-left: 80px;
   margin-top: 20px;
 }
 
@@ -474,14 +529,16 @@ body {
   margin-top: 10px;
   width: 35px;
   margin-left: 165px;
-  color: #ec5342;
+  background-color: #ec5342;
   margin-bottom: 40px;
+  border: 1px solid #ec5342;
 }
 
 .partner-list {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 30px;
 }
 
 .reserved2 {
