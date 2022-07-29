@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1140px) {
   body {
     width: 100%;
   }
@@ -83,9 +83,10 @@
 
   .title3 {
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 50px;
-    margin-left: 190px;
+    margin-left: 200px;
+    padding-top: 160px;
   }
 
   .title {
@@ -94,7 +95,7 @@
     font-size: 49px;
     width: 600px;
     margin-bottom: 40px;
-    margin-left: 190px;
+    margin-left: 180px;
   }
 
   .intro {
@@ -142,51 +143,28 @@
   }
 
   .info-list {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 0 auto;
+    margin-top: 60px;
   }
 
-  .info-list .li1 {
-    margin-top: 80px;
-    margin-left: 40px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    height: 150px;
-  }
-
-  .info-list .li2 {
-    margin-top: 80px;
-    margin-left: 40px;
-    width: 200px;
+  .info-list li {
     display: flex;
     flex-direction: column;
-    height: 150px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+    width: 200px;
+    background-color: #ffffff1a;
+    list-style: none;
+    height: 250px;
   }
 
-  .info-list .li3 {
-    margin-top: 80px;
-    margin-left: 40px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    height: 150px;
-  }
-
-  .info-list .li4 {
-    margin-top: 80px;
-    margin-left: 40px;
-    width: 200px;
-    height: 150px;
-  }
-
-  .info-list .li5 {
-    margin-top: 80px;
-    margin-left: 40px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    height: 150px;
+  .info-list li i {
+    font-size: 25px;
   }
 
   .info {
@@ -206,12 +184,13 @@
   }
 
   .btn2 {
+    position: relative;
     display: block;
     width: 300px;
     height: 40px;
     margin: 0 auto;
-    margin-top: 150px;
-    color: #ec5342;
+    margin-top: 50px;
+    color: #fff;
   }
 
   .btn2:hover {
@@ -248,9 +227,10 @@
 
   .hr6 {
     margin-top: 10px;
-    width: 35px;
+    width: 30px;
     margin-left: 625px;
-    color: #ec5342;
+    background-color: #ec5342;
+    border: 1px solid #ec5342;
     margin-bottom: 40px;
   }
 
@@ -258,6 +238,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 30px;
   }
 
   .partner-list1 li {
@@ -285,7 +266,9 @@
 
   .intro3 {
     width: 800px;
-    font-size: 25px;
+    font-size: 20px;
+    height: 200px;
+    padding-top: 50px;
   }
 
   .contact-list {
@@ -360,5 +343,24 @@
     grid-template-rows: repeat(1, 1fr);
     margin: 0 auto;
     margin-top: 24px;
+  }
+
+  .reserved1 {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reserve1 {
+    color: #272a31;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .p2 {
+    font-size: 15px;
+  }
+
+  .hr5 {
   }
 }
