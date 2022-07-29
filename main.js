@@ -54,7 +54,6 @@ div1.innerHTML = projects1
     <h2 class="intro2">${project1.name1[6]}</h2>
 <hr class="hr2">
     <ul>
-   
     <li>
       <div class="meta">
       <a href="#" class="imgs"><img src="${project1.Image1[0]}" alt="alan"></a>
