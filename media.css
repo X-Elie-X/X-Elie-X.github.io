@@ -351,6 +351,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .reserve1 {
     color: #272a31;
     font-size: 20px;
@@ -359,8 +360,5 @@
 
   .p2 {
     font-size: 15px;
-  }
-
-  .hr5 {
   }
 }
